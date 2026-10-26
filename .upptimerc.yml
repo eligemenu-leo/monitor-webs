@@ -68,6 +68,10 @@ sites:
     url: https://tabernasalcedo.es/
   - name: Dr Peña Restaurante
     url: https://xn--drpea-rta.es/
+  - name: Cofradía del Desarme (.com)
+    url: https://cofradiadeldesarme.com/
+  - name: Webext
+    url: https://webext.es/
 
 assignees:
   - eligemenu-leo
