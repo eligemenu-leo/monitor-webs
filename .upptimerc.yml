@@ -1,31 +1,114 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: eligemenu-leo
+repo: monitor-webs
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Servidor (panel Plesk)
+    url: https://circube.es:8443/login_up.php
+  - name: Albergue Hostel Gascona
+    url: https://alberguehostelgascona.es/
+  - name: Club de Guisanderas
+    url: https://clubdeguisanderas.com/
+  - name: El Desarme de Oviedo
+    url: https://cofradiadeldesarme.es/
+  - name: Curuxera Brewery
+    url: https://curuxera.es/
+  - name: Don Pelayo Bhar
+    url: https://donpelayobhar.es/
+  - name: El Bodegón de Güela
+    url: https://elbodegondeguela.es/
+  - name: El De Diez de La Gorda
+    url: https://eldediezdelagorda.es/
+  - name: El Fartuquín
+    url: https://elfartuquin.es/
+  - name: El Llugarín
+    url: https://elllugarin.es/
+  - name: El Reloj de Porlier
+    url: https://elrelojdeporlier.es/
+  - name: El Rincón de Adi
+    url: https://elrincondeadi.es/
+  - name: Equipo Perseus
+    url: https://equipoperseus.com/
+  - name: Esyma Multiservicios
+    url: https://esymamultiservicios.com/
+  - name: Fecoastur
+    url: https://fecoastur.es/
+  - name: Gastrojornadas (.com)
+    url: https://gastrojornadas.com/
+  - name: Gastrojornadas (.es)
+    url: https://gastrojornadas.es/
+  - name: Hotel Casa Cachón
+    url: https://hotelcasacachon.es/
+  - name: Instalaciones Hom (.com)
+    url: https://instalacioneshom.com/
+  - name: Instalaciones Hom (.es)
+    url: https://instalacioneshom.es/
+  - name: Jornadas del Desarme
+    url: https://jornadasdeldesarme.es/
+  - name: La Boquería Gijón
+    url: https://laboqueriagijon.es/
+  - name: La Genuina Arrocería
+    url: https://lagenuinaarroceria.es/
+  - name: La Mina Gastronomía
+    url: https://laminagastronomia.es/
+  - name: Las Tablas del Campillín
+    url: https://lastablasdelcampillin.es/
+  - name: La Vaca Asustada
+    url: https://lavacaasustada.com/
+  - name: Mi puta boda
+    url: https://miputaboda.es/
+  - name: RDoble
+    url: https://rdoble.es/
+  - name: Representaciones Río
+    url: https://representacionesrio.es/
+  - name: Sidrería Villaviciosa
+    url: https://sidreriavillaviciosa.es/
+  - name: Sublime Oviedo
+    url: https://sublimeoviedo.es/
+  - name: Taberna Salcedo
+    url: https://tabernasalcedo.es/
+  - name: Dr Peña Restaurante
+    url: https://xn--drpea-rta.es/
+
+assignees:
+  - eligemenu-leo
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /monitor-webs
+  name: Estado de las webs
+  introTitle: "Estado de las webs alojadas en el servidor"
+  introMessage: Comprobación automática cada 5 minutos.
   navbar:
-    - title: Status
+    - title: Estado
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  activeIncidents: Incidencias activas
+  allSystemsOperational: Todo funciona correctamente
+  incidentReport: "Incidencia #$NUMBER →"
+  activeIncidentSummary: "Abierta el $DATE con $POSTS comentarios"
+  incidentTitle: "Incidencia $NUMBER: $TITLE"
+  incidentDetails: Detalles
+  incidentFixed: Resuelta
+  incidentOngoing: En curso
+  incidentOpenedAt: Abierta
+  incidentClosedAt: Cerrada
+  incidentBack: ← Volver
+  pastIncidents: Incidencias anteriores
+  pastIncidentsResolved: "Resuelta en $MINUTES minutos con $POSTS comentarios"
+  liveStatus: Estado actual
+  overallUptime: "Disponibilidad total: $UPTIME"
+  averageResponseTime: "Tiempo de respuesta medio: $TIMEms"
+  up: Funciona
+  down: Caída
+  degraded: Lenta
+  ms: ms
+  loading: Cargando
+  duration: Duración
+  durationMin: "$DURATION min"
+  durationMins: "$DURATION min"
+  sevenDays: Últimos 7 días
+  thirtyDays: Últimos 30 días
+  oneYear: Último año
+  allTime: Siempre
+  responseTime: Tiempo de respuesta
+  overall: Global
